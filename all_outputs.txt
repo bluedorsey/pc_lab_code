@@ -1,0 +1,122 @@
+Output of arraysum.py:
+Array size : 40000000
+CPU cores  : 16
+
+Sequential time      : 1.52 sec
+Multiprocessing time : 0.74 sec
+
+Sum of all elements : 368909905465677509622968652
+
+Speedup   : 2.06x
+Efficiency: 12.90%
+Result verified : both methods give same sum
+
+Output of factorial.py:
+Factorial of : 200000
+CPU cores    : 16
+
+Sequential time      : 7.29 sec
+Multiprocessing time : 1.01 sec
+
+Total digits in answer : 973351
+
+Speedup   : 7.24x
+Efficiency: 45.25%
+Result verified : both methods give same factorial
+
+Output of bubblesort.py:
+Array size : 12000
+CPU cores  : 16
+
+Sequential time      : 3.05 sec
+Multiprocessing time : 0.41 sec
+
+First 10 numbers before sorting : [28178, 96624, 63737, 99800, 87294, 55460, 67218, 99015, 38840, 36832]
+First 10 numbers after sorting  : [4, 33, 33, 37, 45, 47, 52, 53, 62, 72]
+
+Speedup   : 7.43x
+Efficiency: 46.43%
+Result verified : both methods give same sorted array
+
+Output of fibonacci.py:
+Fibonacci terms : 35000
+CPU cores       : 16
+
+Sequential time      : 2.43 sec
+Multiprocessing time : 0.90 sec
+
+First 15 terms : [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377]
+Digits in last term : 7315
+
+Speedup   : 2.71x
+Efficiency: 16.91%
+Result verified : both methods give same fibonacci series
+
+Output of matmul.py:
+Matrix size : 500 x 500
+CPU cores   : 16
+
+Sequential time      : 3.91 sec
+Multiprocessing time : 1.20 sec
+
+Speedup   : 3.26x
+Efficiency: 20.35%
+Result verified : both matrices are same
+
+Output of maxmin.py:
+Array size : 40000000
+CPU cores  : 16
+
+Sequential time      : 1.78 sec
+Multiprocessing time : 0.70 sec
+
+Maximum : 18446743785024405087
+Minimum : 528264999377
+
+Speedup   : 2.55x
+Efficiency: 15.94%
+Result verified : both methods give same max and min
+
+Output of oddeven.py:
+Numbers   : 100000000
+CPU cores : 16
+
+Sequential time      : 2.58 sec
+Multiprocessing time : 0.90 sec
+
+Odd numbers  : 50000000
+Even numbers : 50000000
+
+Speedup   : 2.87x
+Efficiency: 17.95%
+Result verified : both methods give same count
+
+Output of prime.py:
+Natural numbers : 2000000
+CPU cores       : 16
+
+Sequential time      : 3.20 sec
+Multiprocessing time : 0.94 sec
+
+Total prime numbers : 148933
+First 10 primes     : [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
+
+Speedup   : 3.42x
+Efficiency: 21.38%
+Result verified : both methods give same prime count
+
+Output of transpose.py:
+Matrix size : 4000 x 4000
+CPU cores   : 16
+
+Sequential time      : 1.36 sec
+Multiprocessing time : 0.63 sec
+
+Size of transpose : 4000 x 4000
+Check  A[0][1] : 12804814848109223113
+       T[1][0] : 12804814848109223113
+
+Speedup   : 2.15x
+Efficiency: 13.43%
+Result verified : both methods give same transpose
+
